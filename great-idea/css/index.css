@@ -72,32 +72,33 @@ body {
 nav {
 	width: 100%;
 	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 36px;
 }
 
 nav a {
 	text-decoration: none;
 	margin-right: 60px;
 	color: lightgray;
-	height: 36px;
-	vertical-align: text-top;
 }
 
-nav a > img {
-	vertical-align: middle;
+.logo {
+	margin-left: auto;
 }
 
 .jumbotron {
 	margin: 40px 0;
+	display: flex;
 }
 
 .jumbotron > img {
 	width: 46%;
-	display: inline-block;
-	margin-left: 4%;
+	margin-left: auto;
 }
 
 .cta {
-	display: inline-block;
 	width: 49%;
 	text-align: center;
 	vertical-align: top;
@@ -122,6 +123,10 @@ header {
 	border-bottom: 1px solid black;
 }
 
+.double-text-section, .triple-text-section {
+	display: flex;
+}
+
 .double-text-section > * {
 	width: 48%;
 }
@@ -131,7 +136,6 @@ header {
 }
 
 .text-section {
-	display: inline-block;
 	margin: 30px 0;
 }
 
